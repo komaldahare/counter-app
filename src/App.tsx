@@ -4,6 +4,9 @@ import "./App.scss";
 const initialState = {count: 0, op: ''};
 //login: true
 
+// i made the change in ncomment
+
+// i made the second change in ncomment
 
   function reducer(state:{count: number}, action:{type: string}) {
     switch (action.type) {
